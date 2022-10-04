@@ -1,5 +1,5 @@
 # ingfoinfo
 Github kelompok projek Event Information
 
-yang ga join gak dapat anjing
+yang ga join gak dapat anjing 
 
