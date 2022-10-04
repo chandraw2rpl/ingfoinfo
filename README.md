@@ -1,5 +1,4 @@
 # ingfoinfo
 Github kelompok projek Event Information
 
-yang ga join Gay
-ariel waria
+yang ga join jadi Ultraman
