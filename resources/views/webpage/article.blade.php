@@ -37,10 +37,10 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index"><img src="{{ asset('frontend/images/logo.svg') }}" alt="alternative"></a>
+            <a href="index"><img src="{{ asset('img/logo.png') }}" class="img-thumbnail rounded-circle" width ='70px' alt="alternative"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index">Zinc</a> -->
+             <a class="navbar-brand logo-text" href="index">Ev.Inf</a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -72,7 +72,7 @@
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-solid-sm" href="index#contact">Get quote</a>
+                    <a class="btn-solid-sm" href="login">login</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -98,7 +98,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-fluid mt-5 mb-3" src="images/article-details-large.jpg" alt="alternative">
+                    <img class="img-fluid mt-5 mb-3" src="{{ asset('frontend/images/article-details-large.jpg') }}" alt="alternative">
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -237,7 +237,7 @@
 
     <!-- Footer -->
     <div class="footer bg-gray">
-        <img class="decoration-city" src="images/decoration-city.svg" alt="alternative">
+        <img class="decoration-city" src="{{ asset('frontend/images/decoration-city.svg') }}" alt="alternative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

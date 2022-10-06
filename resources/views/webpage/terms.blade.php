@@ -37,10 +37,10 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index"><img src="images/logo.svg" alt="alternative"></a>
+            <a href="index"><img src="{{ asset('img/logo.png') }}" class="img-thumbnail rounded-circle" width ='70px' alt="alternative"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index">Zinc</a> -->
+             <a class="navbar-brand logo-text" href="index">Ev.Inf</a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

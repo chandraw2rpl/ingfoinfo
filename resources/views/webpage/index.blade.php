@@ -7,6 +7,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Your description">
     <meta name="author" content="Your name">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
 	<meta property="og:site_name" content="" /> <!-- website name -->
@@ -21,7 +22,6 @@
     <title>Zinc Webpage Title</title>
 
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/fontawesome-all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/swiper.css') }}" rel="stylesheet">
@@ -37,10 +37,10 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index"><img src="" alt="alternative"></a>
+            <a href="index"><img src="{{ asset('img/logo.png') }}" class="img-thumbnail rounded-circle" width ='70px' alt="alternative"></a>
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index">Zinc</a> -->
+
+             <a class="navbar-brand logo-text" href="index">Ev.Inf</a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -95,7 +95,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/header-illustration.svg" alt="alternative">
+                        <img class="img-fluid" src="{{ asset('frontend/images/header-illustration.svg') }}" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -143,6 +143,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-icon yellow">
+
                             <span class="fas fa-solar-panel"></span>
                         </div>
                         <div class="card-body">
@@ -170,35 +171,6 @@
                     </div>
                     <!-- end of card -->
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-icon red">
-                            <span class="fas fa-gift"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Online shop</h5>
-                            <p>Nullam lobortis porta diam, vitae dictum metus placerat luctus bora</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Sed laoreet blandit mollis ne</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mauris non luctus est quisquerm</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mattis dapibus quisque tristique</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Cursus lacus interdum sollicdn</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -213,7 +185,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-1.svg" alt="alternative">
+            <img class="img-fluid" src="{{ asset('frontend/images/details-1.svg') }}" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
@@ -305,7 +277,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-2.svg" alt="alternative">
+                        <img class="img-fluid" src="{{ asset('frontend/images/details-2.svg') }}" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -335,55 +307,55 @@
                     <div class="grid">
                         <div class="element-item development">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-1.jpg') }}" alt="alternative">
                                 <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-2.jpg') }}" alt="alternative">
                                 <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-3.jpg') }}" alt="alternative">
                                 <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-4.jpg') }}" alt="alternative">
                                 <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-5.jpg') }}" alt="alternative">
                                 <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-6.jpg') }}" alt="alternative">
                                 <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-7.jpg') }}" alt="alternative">
                                 <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-8.jpg') }}" alt="alternative">
                                 <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article">
-                                <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
+                                <img class="img-fluid" src="{{ asset('frontend/images/project-9.jpg') }}" alt="alternative">
                                 <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
                             </a>
                         </div>
@@ -411,7 +383,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
+                                        <img class="quotes" src="{{ asset('frontend/images/quotes.svg') }}" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Fusce tincidunt dui nec diam varius venenatis. Nullam tristique rutrum odio, ut tincidunt erat dictum in. Etiam et aliquet mi, et vehicula elit fusce porta ullamcorper</p>
                                             <div class="details">
@@ -429,7 +401,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
+                                        <img class="quotes" src="{{ asset('frontend/images/quotes.svg') }}" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Mauris ut mattis nisl. Nunc ultrices nisi eget nisl pulvinar iaculis vitae ac nulla. Nullam fringilla varius blandit. Nam sit amet eleifend justo blogo rovan de chichis kokos venir dab</p>
                                             <div class="details">
@@ -447,7 +419,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
+                                        <img class="quotes" src="{{ asset('frontend/images/quotes.svg') }}" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Nam sit amet eleifend justo. Aliquam sit amet lacinia enim, eget facilisis ex. Ut pretium cursus eleifend. Integer feugiat malesuada quam vel basil venis proca jilo</p>
                                             <div class="details">
@@ -465,7 +437,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
+                                        <img class="quotes" src="{{ asset('frontend/images/quotes.svg') }}" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur ing elit. Nulla id nisl tempus risus facilisis efficr ut tincidunt vitae enim non vehicula. Phases vitae metus in felis gravida ultrices zimbo</p>
                                             <div class="details">
@@ -513,7 +485,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
-                                <img class="decoration-lines" src="images/decoration-lines.svg" alt="alternative"><span>Landing page</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
+                                <img class="decoration-lines" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative"><span>Landing page</span><img class="decoration-lines flipped" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative">
                             </div>
                             <ul class="list-unstyled li-space-lg">
                                 <li>Fusce pulvinar eu mi acm</li>
@@ -534,7 +506,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
-                                <img class="decoration-lines" src="images/decoration-lines.svg" alt="alternative"><span>Corporate site</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
+                                <img class="decoration-lines" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative"><span>Corporate site</span><img class="decoration-lines flipped" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative">
                             </div>
                             <ul class="list-unstyled li-space-lg">
                                 <li>Nunc commodo magna quis</li>
@@ -555,7 +527,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
-                                <img class="decoration-lines" src="images/decoration-lines.svg" alt="alternative"><span>Online shop</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
+                                <img class="decoration-lines" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative"><span>Online shop</span><img class="decoration-lines flipped" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative">
                             </div>
                             <ul class="list-unstyled li-space-lg">
                                 <li>Quisque rutrum mattis</li>
@@ -646,7 +618,7 @@
 
     <!-- Footer -->
     <div class="footer bg-gray">
-        <img class="decoration-city" src="images/decoration-city.svg" alt="alternative">
+        <img class="decoration-city" src="{{ asset('frontend/images/decoration-city.svg') }}" alt="alternative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -725,5 +697,6 @@
     <script src="{{ asset('frontend/js/purecounter.min.js') }}"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="{{ asset('frontend/js/isotope.pkgd.min.js') }}"></script> <!-- Isotope for filter -->
     <script src="{{ asset('frontend/js/scripts.js') }}"></script> <!-- Custom scripts -->
+
 </body>
 </html>

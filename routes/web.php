@@ -22,6 +22,10 @@ Route::get('/article','WebpageController@article');
 Route::get('/privacy','WebpageController@privacy');
 Route::get('/terms','WebpageController@terms');
 
+Route::get('/test',function(){
+    return view('test');
+});
+
 
 Auth::routes();
 
