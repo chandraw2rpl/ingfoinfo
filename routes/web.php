@@ -16,15 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('webpage.index');
 });
-Route::get('/article', function () {
-    return view('webpage.article');
-});
-Route::get('/privacy', function () {
-    return view('webage.privacy');
-});
-Route::get('/terms', function () {
-    return view('webpage.terms');
-});
+
+Route::get('/index','WebpageController@index');
+Route::get('/article','WebpageController@article');
+Route::get('/privacy','WebpageController@privacy');
+Route::get('/terms','WebpageController@terms');
 
 
 Auth::routes();

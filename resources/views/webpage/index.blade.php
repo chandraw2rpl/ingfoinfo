@@ -40,7 +40,7 @@
             <a class="navbar-brand logo-image" href="index"><img src="" alt="alternative"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index.html">Zinc</a> -->
+            <!-- <a class="navbar-brand logo-text" href="index">Zinc</a> -->
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -63,11 +63,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
+                            <li><a class="dropdown-item" href="article">Article Details</a></li>
                             <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                            <li><a class="dropdown-item" href="terms">Terms Conditions</a></li>
                             <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="privacy">Privacy Policy</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -334,55 +334,55 @@
                     </div> <!-- end of button group -->
                     <div class="grid">
                         <div class="element-item development">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
                                 <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
                             </a>
                         </div>
                         <div class="element-item development">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
                                 <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
                             </a>
                         </div>
                         <div class="element-item development">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
                                 <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
                             </a>
                         </div>
                         <div class="element-item design development">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
                                 <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
                             </a>
                         </div>
                         <div class="element-item design development">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
                                 <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
                                 <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
                                 <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
                                 <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
-                            <a href="article.html">
+                            <a href="article">
                                 <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
                                 <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
                             </a>
@@ -715,7 +715,7 @@
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
-        <img src="images/up-arrow.png" alt="alternative">
+        <img src="{{ asset('frontend/images/up-arrow.png') }}" alt="alternative">
     </button>
     <!-- end of back to top button -->
 

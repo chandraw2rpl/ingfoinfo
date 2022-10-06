@@ -37,10 +37,10 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href="index"><img src="images/logo.svg" alt="alternative"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index.html">Zinc</a> -->
+            <!-- <a class="navbar-brand logo-text" href="index">Zinc</a> -->
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,30 +49,30 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Services</a>
+                        <a class="nav-link" href="index#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#projects">Projects</a>
+                        <a class="nav-link" href="index#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#pricing">Pricing</a>
+                        <a class="nav-link" href="index#pricing">Pricing</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
+                            <li><a class="dropdown-item" href="article">Article Details</a></li>
                             <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                            <li><a class="dropdown-item" href="terms">Terms Conditions</a></li>
                             <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="privacy">Privacy Policy</a></li>
                         </ul>
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-solid-sm" href="index.html#contact">Get quote</a>
+                    <a class="btn-solid-sm" href="index#contact">Get quote</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -185,7 +185,7 @@
                     </div> <!-- end of text-box -->
                     <p class="mb-5">You vexed shy mirth now noise. Talked him people valley add use her depend letter. Allowance too applauded now way something recommend. Mrs age men and trees jokes fancy. Gay pretended engrossed eagerness continued ten. Admitting day him contained unfeeling attention on these random words generated with tool</p>
 
-                    <a class="btn-solid-reg mb-5" href="index.html#contact">Get quote</a>
+                    <a class="btn-solid-reg mb-5" href="index#contact">Get quote</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -245,9 +245,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="article.html">Article Details</a></li>
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="article">Article Details</a></li>
+                        <li><a href="terms">Terms & Conditions</a></li>
+                        <li><a href="privacy">Privacy Policy</a></li>
                     </ul>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
