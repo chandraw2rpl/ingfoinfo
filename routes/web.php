@@ -14,8 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('webpage.index');
 });
+Route::get('/article', function () {
+    return view('webpage.article');
+});
+Route::get('/privacy', function () {
+    return view('webage.privacy');
+});
+Route::get('/terms', function () {
+    return view('webpage.terms');
+});
+
 
 Auth::routes();
 

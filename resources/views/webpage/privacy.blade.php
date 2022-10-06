@@ -274,10 +274,10 @@
     <!-- end of back to top button -->
 
     <!-- Scripts -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script> <!-- Bootstrap framework -->
+    <script src="{{ asset('frontend/js/swiper.min.js') }}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{{ asset('frontend/js/purecounter.min.js') }}"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="{{ asset('frontend/js/isotope.pkgd.min.js') }}"></script> <!-- Isotope for filter -->
+    <script src="{{ asset('frontend/js/scripts.js') }}"></script> <!-- Custom scripts -->
 </body>
 </html>
