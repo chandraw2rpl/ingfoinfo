@@ -227,7 +227,7 @@
                         </li>
                     </ul>
 
-                    <a class="btn-solid-reg mb-5" href="index#contact">Get quote</a>
+                    <a class="btn-solid-reg mb-5" href="login">Login</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->

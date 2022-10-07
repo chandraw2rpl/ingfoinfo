@@ -72,7 +72,7 @@
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-solid-sm" href="#contact">Get quote</a>
+                    <a class="btn-solid-sm" href="login">Login</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
