@@ -10,25 +10,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Zinc Webpage Title</title>
+    <title>Event Information</title>
 
     <!-- Styles -->
     <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/fontawesome-all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/swiper.css') }}" rel="stylesheet">
-	<link href="{{ asset('frontend/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/styles.css') }}" rel="stylesheet">
 
-	<!-- Favicon  -->
-    <link rel="icon" href="{{ asset('frontend/images/favicon.png') }}">
+    <!-- Favicon  -->
+    <link rel="icon" href="{{ asset('img/logo.png') }}">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
@@ -72,7 +72,7 @@
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-solid-sm" href="login">Login</a>
+                    <a class="btn-solid-sm" href="login">login</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -86,11 +86,11 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <div class="section-title">Welcome to Zinc web agency</div>
-                        <h1 class="h1-large">Zinc creates stylish and efficient sites</h1>
-                        <p class="p-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim, neque ut ultrices sollicitudin</p>
+                        <div class="section-title">Welcome to <strong>Event Information</strong> <i>SMK Cinta Kasih</i></div>
+                        <h1 class="h1-large">Laman Event Information untuk SMK Cinta Kasih Tzu Chi</h1>
+                        <p class="p-large"></p>
                         <a class="btn-solid-lg" href="#services">Offered services</a>
-                        <a class="quote" href="#contact"><i class="fas fa-paper-plane"></i>Get quote</a>
+                        <a class="quote" href="login"><i class="fas fa-paper-plane"></i>Login</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
@@ -287,8 +287,8 @@
 
 
     <!-- Projects -->
-	<div id="projects" class="filter bg-gray">
-		<div class="container">
+    <div id="projects" class="filter bg-gray">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Projects that we're proud of</h2>
@@ -364,7 +364,7 @@
 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-		</div> <!-- end of container -->
+        </div> <!-- end of container -->
     </div> <!-- end of filter -->
     <!-- end of projects -->
 
@@ -497,7 +497,7 @@
                                 <li>Ut convallis aliquama set</li>
                             </ul>
                             <div class="price">$200</div>
-                            <a href="#contact" class="btn-outline-reg">Get quote</a>
+                            <a href="login" class="btn-outline-reg">Login</a>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -518,7 +518,7 @@
                                 <li>Mauris non luctus est</li>
                             </ul>
                             <div class="price">$300</div>
-                            <a href="#contact" class="btn-outline-reg">Get quote</a>
+                            <a href="Login" class="btn-outline-reg">Login</a>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -539,7 +539,7 @@
                                 <li>Id tellus hendrerit lacinia</li>
                             </ul>
                             <div class="price">$400</div>
-                            <a href="#contact" class="btn-outline-reg">Get quote</a>
+                            <a href="Login" class="btn-outline-reg">Login</a>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -557,8 +557,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h4>In gravida at nunc sodales pretium. Vivamus semper, odio vitae mattis auctor, elit elit semper magna rico</h4>
-                        <p class="p-large">Ac tristique velit sapien vitae eros. Praesent ut erat a tellus cursus pharetra finibus posuere nisi. Vivamus feugiat tincidunt sem pre toro</p>
+                        <h4>"Anda tidak akan pernah mengubah kehidupan sampai anda mengubah apa yang anda lakukan setiap hari. Rahasia sukses anda ditemukan di dalam kegiatan anda sehari-hari."</h4>
+                        <p class="p-large">- Kata Perenungan Master</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -572,12 +572,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading"><span>Use the following form to</span><br> request a quote for your project</h2>
-                    <p class="p-heading">Vel malesuada sapien condimentum nec. Fusce interdum nec urna et finibus pulvinar tortor id</p>
+                    <h2 class="h2-heading"><span><b>Kontak kami</b></span><br> </h2>
+                    <p class="p-heading"></p>
                     <ul class="list-unstyled li-space-lg">
-                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Praesentum, Pharetra Fin, CB 12345, KL</li>
-                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+81 720 2212</a></li>
-                        <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;<b>Jl. Kamal Raya Outer Ring Road No.20, RT.7/RW.14, Cengkareng, Kota Jakarta Barat</b> </li>
+
+                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:(021)54397462"><b> +(021)54397462</b></a></li>
+
+                        <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:smkcintakasihtzuchi@gmail.com"><b>smkcintakasihtzuchi@gmail.com</b></a> </li>
+
+                        <li><i class="fas fa-link"></i> &nbsp;<a href="https://smk.cintakasihtzuchi.sch.id/"><b>smkcintakasihtzuchi</b></a> </li>
+
+
                     </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -622,7 +628,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Pellentesque aliquet mi eu tortor dictum, non imperdiet ante viverra. Phasellus eget enim orci ut pellentes troc</h4>
+                    <h4>"Melakukan apa saja harus dari tekad menanam pohon juga dimulai dari menanamkan sebuah sebutir benih"</h4>
+                    <p><i>Kata Perenungan Master Cheng Yen</i></p>
+
                     <div class="social-container">
                         <span class="fa-stack">
                             <a href="#your-link">
