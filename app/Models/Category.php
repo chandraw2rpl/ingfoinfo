@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     use HasFactory;
+    protected $fillable = ['name'];
+    public function event()
+    {
+        return $this->hasOne(Event::class, 'category_id', 'id');
+    }
 }

@@ -38,8 +38,6 @@
 
             <!-- Image Logo -->
             <a href="index"><img src="{{ asset('img/logo.png') }}" class="img-thumbnail rounded-circle" width ='70px' alt="alternative"></a>
-
-
              <a class="navbar-brand logo-text" href="index">Ev.Inf</a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
@@ -53,12 +51,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
@@ -79,7 +71,6 @@
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
 
-
     <!-- Header -->
     <header id="header" class="header">
         <div class="container">
@@ -90,7 +81,6 @@
                         <h1 class="h1-large">Laman Event Information untuk SMK Cinta Kasih Tzu Chi</h1>
                         <p class="p-large"></p>
                         <a class="btn-solid-lg" href="#services">Offered services</a>
-                        <a class="quote" href="login"><i class="fas fa-paper-plane"></i>Login</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
@@ -286,87 +276,7 @@
     <!-- end of details 2 -->
 
 
-    <!-- Projects -->
-    <div id="projects" class="filter bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Projects that we're proud of</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
 
-                    <!-- Filter -->
-                    <div class="button-group filters-button-group">
-                        <button class="button is-checked" data-filter="*">ALL</button>
-                        <button class="button" data-filter=".design">DESIGN</button>
-                        <button class="button" data-filter=".development">DEVELOPMENT</button>
-                        <button class="button" data-filter=".marketing">MARKETING</button>
-                    </div> <!-- end of button group -->
-                    <div class="grid">
-                        <div class="element-item development">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-1.jpg') }}" alt="alternative">
-                                <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
-                            </a>
-                        </div>
-                        <div class="element-item development">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-2.jpg') }}" alt="alternative">
-                                <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
-                            </a>
-                        </div>
-                        <div class="element-item development">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-3.jpg') }}" alt="alternative">
-                                <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
-                            </a>
-                        </div>
-                        <div class="element-item design development">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-4.jpg') }}" alt="alternative">
-                                <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
-                            </a>
-                        </div>
-                        <div class="element-item design development">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-5.jpg') }}" alt="alternative">
-                                <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
-                            </a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-6.jpg') }}" alt="alternative">
-                                <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
-                            </a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-7.jpg') }}" alt="alternative">
-                                <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
-                            </a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-8.jpg') }}" alt="alternative">
-                                <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
-                            </a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a href="article">
-                                <img class="img-fluid" src="{{ asset('frontend/images/project-9.jpg') }}" alt="alternative">
-                                <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
-                            </a>
-                        </div>
-                    </div> <!-- end of grid -->
-                    <!-- end of filter -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of filter -->
-    <!-- end of projects -->
 
 
     <!-- Testimonials -->
@@ -468,89 +378,6 @@
         </div> <!-- end of container -->
     </div> <!-- end of slider-1 -->
     <!-- end of testimonials -->
-
-
-    <!-- Pricing -->
-    <div id="pricing" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading"><span>Choose the package</span><br> that fits your budget and project</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <img class="decoration-lines" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative"><span>Landing page</span><img class="decoration-lines flipped" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative">
-                            </div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>Fusce pulvinar eu mi acm</li>
-                                <li>Curabitur consequat nisl bro</li>
-                                <li>Reget facilisis molestie</li>
-                                <li>Vivamus vitae sem in tortor</li>
-                                <li>Pharetra vehicula ornares</li>
-                                <li>Vivamus dignissim sit amet</li>
-                                <li>Ut convallis aliquama set</li>
-                            </ul>
-                            <div class="price">$200</div>
-                            <a href="login" class="btn-outline-reg">Login</a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <img class="decoration-lines" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative"><span>Corporate site</span><img class="decoration-lines flipped" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative">
-                            </div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>Nunc commodo magna quis</li>
-                                <li>Lacus fermentum tincidunt</li>
-                                <li>Nullam lobortis porta diam</li>
-                                <li>Announcing of invita mro</li>
-                                <li>Dictum metus placerat luctus</li>
-                                <li>Sed laoreet blandit mollis</li>
-                                <li>Mauris non luctus est</li>
-                            </ul>
-                            <div class="price">$300</div>
-                            <a href="Login" class="btn-outline-reg">Login</a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <img class="decoration-lines" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative"><span>Online shop</span><img class="decoration-lines flipped" src="{{ asset('frontend/images/decoration-lines.svg') }}" alt="alternative">
-                            </div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>Quisque rutrum mattis</li>
-                                <li>Quisque tristique cursus lacus</li>
-                                <li>Interdum sollicitudin maec</li>
-                                <li>Quam posuere, pellentesque</li>
-                                <li>Est nec, gravida turpis integer</li>
-                                <li>Mollis felis. Integer id quam</li>
-                                <li>Id tellus hendrerit lacinia</li>
-                            </ul>
-                            <div class="price">$400</div>
-                            <a href="Login" class="btn-outline-reg">Login</a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
-    <!-- end of pricing -->
-
-
     <!-- Invitation -->
     <div class="basic-2">
         <div class="container">
@@ -565,7 +392,6 @@
         </div> <!-- end of container -->
     </div> <!-- end of basic-2 -->
     <!-- end of invitation -->
-
 
     <!-- Contact -->
     <div id="contact" class="form-1">
@@ -590,31 +416,6 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
 
-                    <!-- Contact Form -->
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" placeholder="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control-select" required>
-                                <option class="select-option" value="" disabled selected>Project type</option>
-                                <option class="select-option" value="Company Website">Company Website</option>
-                                <option class="select-option" value="Landing Page">Landing Page</option>
-                                <option class="select-option" value="Online Shop">Online Shop</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Submit</button>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -622,42 +423,45 @@
     <!-- end of contact -->
 
 
-    <!-- Footer -->
+
+
+
+     <!-- Footer -->
     <div class="footer bg-gray">
         <img class="decoration-city" src="{{ asset('frontend/images/decoration-city.svg') }}" alt="alternative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>"Melakukan apa saja harus dari tekad menanam pohon juga dimulai dari menanamkan sebuah sebutir benih"</h4>
-                    <p><i>Kata Perenungan Master Cheng Yen</i></p>
+                    <h4>"Anda tidak akan pernah mengubah kehidupan sampai anda mengubah apa yang anda lakukan setiap hari. Rahasia sukses anda ditemukan di dalam kegiatan anda sehari-hari."</h4>
+                    <p><i>- Kata Perenungan Master Cheng Yen -</i></p>
 
                     <div class="social-container">
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.facebook.com/profile.php?id=100071491673873">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://twitter.com/tzuchi_smk?lang=en">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://smk.cintakasihtzuchi.sch.id/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                <i class="fa fa-globe fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/smkcintakasihtzuchi/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.youtube.com/channel/UCpQ1qF3JzBCGRC9_ep5uy2w">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-youtube fa-stack-1x"></i>
                             </a>
@@ -676,22 +480,22 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="article">Article Details</a></li>
-                        <li><a href="terms">Terms & Conditions</a></li>
-                        <li><a href="privacy">Privacy Policy</a></li>
+                        <li><a href="https://smk.cintakasihtzuchi.sch.id/">SMK Cinta Kasih Tzu Chi</a></li>
+                        <li></li>
+                        <li><a href="https://cintakasihtzuchi.sch.id/">Sekolah Cinta Kasih Tzu Chi</a></li>
+
                     </ul>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
+                    <p class="p-small statement">Copyright © <a href="#">Siswa SMK </a></p>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">cintakasihtzuchi</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
-
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">

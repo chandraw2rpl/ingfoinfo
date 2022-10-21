@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('template/css/sb-admin-2.min.css') }}" rel="stylesheet">
-
+    <link rel="icon" href="{{ asset('img/logo.png') }}">
 </head>
 
 <body id="page-top">
@@ -28,14 +28,14 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{url('/')}}">
                 <div class="">
-                    <img src="{{ asset('petology-html/images/logo.png') }}">
+                    <img src="{{ asset('img/logo.png') }}" width="50px" height="50px" class="rounded-circle">
                 </div>
-                <div class="sidebar-brand-text mx-3">PEtology <sup></sup></div>
+                <div class="sidebar-brand-text mx-3">Ev.Inf <sup></sup></div>
             </a>
 
             <!-- Divider -->
@@ -43,9 +43,9 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="{{url('/home')}}">
+                <a class="nav-link" href="https://devnus.com/">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Klik ini bro</span></a>
             </li>
 
             <!-- Divider -->
@@ -73,13 +73,16 @@
             </li> --}}
 
             <!-- Nav Item - Utilities Collapse Menu -->
+
+
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Category</span>
+                aria-expanded="true" aria-controls="collapseUtilities">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Category</span>
                 </a>
-                {{-- <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Settings Category</h6>
@@ -92,22 +95,22 @@
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour"
-                    aria-expanded="true" aria-controls="collapseFour">
+                aria-expanded="true" aria-controls="collapseFour">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pet</span>
+                    <span>Event</span>
                 </a>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
 
-                        <h6 class="collapse-header">Settings Pet</h6>
-                        <a class="collapse-item" href="{{route('pet.index')}}">All Pet</a>
-                        <a class="collapse-item" href="{{route('pet.create')}}">Create</a>
+                        <h6 class="collapse-header">Settings Event</h6>
+                        <a class="collapse-item" href="{{route('event.index')}}">All Event</a>
+                        <a class="collapse-item" href="{{route('event.create')}}">Create</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
                     aria-expanded="true" aria-controls="collapseThree">
                     <i class="fas fa-fw fa-folder"></i>
@@ -159,6 +162,7 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider">
+
             <!-- Heading -->
 
         </ul>

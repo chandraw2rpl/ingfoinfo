@@ -20,6 +20,6 @@ class IsAdmin
             return $next($request);
         }
 
-        return redirect('home')->with('error', "you dont have acces");
+        return redirect('home')->with('error', "you dont have access");
     }
 }
