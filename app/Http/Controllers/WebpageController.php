@@ -22,4 +22,8 @@ class WebpageController extends Controller
     {
         return view('webpage.terms');
     }
+    public function profile()
+    {
+        return view('webpage.profile');
+    }
 }

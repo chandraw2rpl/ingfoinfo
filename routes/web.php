@@ -36,3 +36,4 @@ Route::get('admin/home', [HomeController::class, 'adminHome'])->name('admin.home
 
 Route::resource('category', 'CategoryController')->middleware('auth');
 Route::resource('event', 'EventController')->middleware('auth');
+Route::get('/profile', 'WebpageController@profile');

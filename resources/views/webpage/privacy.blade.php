@@ -68,6 +68,8 @@
                             <li><a class="dropdown-item" href="terms">Terms Conditions</a></li>
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="privacy">Privacy Policy</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="profile">Team Profile</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -199,39 +201,41 @@
 
 
     <!-- Footer -->
-    <div class="footer bg-gray">
-        <img class="decoration-city" src="images/decoration-city.svg" alt="alternative">
+   <div class="footer bg-gray">
+        <img class="decoration-city" src="{{ asset('frontend/images/decoration-city.svg') }}" alt="alternative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Pellentesque aliquet mi eu tortor dictum, non imperdiet ante viverra. Phasellus eget enim orci ut pellentes troc</h4>
+                    <h4>"Anda tidak akan pernah mengubah kehidupan sampai anda mengubah apa yang anda lakukan setiap hari. Rahasia sukses anda ditemukan di dalam kegiatan anda sehari-hari."</h4>
+                    <p><i>- Kata Perenungan Master Cheng Yen -</i></p>
+
                     <div class="social-container">
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.facebook.com/profile.php?id=100071491673873">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://twitter.com/tzuchi_smk?lang=en">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://smk.cintakasihtzuchi.sch.id/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                <i class="fa fa-globe fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/smkcintakasihtzuchi/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.youtube.com/channel/UCpQ1qF3JzBCGRC9_ep5uy2w">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-youtube fa-stack-1x"></i>
                             </a>
@@ -250,16 +254,17 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="article">Article Details</a></li>
-                        <li><a href="terms">Terms & Conditions</a></li>
-                        <li><a href="privacy">Privacy Policy</a></li>
+                        <li><a href="https://smk.cintakasihtzuchi.sch.id/">SMK Cinta Kasih Tzu Chi</a></li>
+                        <li></li>
+                        <li><a href="https://cintakasihtzuchi.sch.id/">Sekolah Cinta Kasih Tzu Chi</a></li>
+
                     </ul>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
+                    <p class="p-small statement">Copyright © <a href="profile">Siswa SMK </a></p>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">cintakasihtzuchi</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->

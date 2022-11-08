@@ -60,6 +60,8 @@
                             <li><a class="dropdown-item" href="terms">Terms Conditions</a></li>
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="privacy">Privacy Policy</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="profile">Team Profile</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -426,8 +428,8 @@
 
 
 
-     <!-- Footer -->
-    <div class="footer bg-gray">
+   <!-- Footer -->
+   <div class="footer bg-gray">
         <img class="decoration-city" src="{{ asset('frontend/images/decoration-city.svg') }}" alt="alternative">
         <div class="container">
             <div class="row">
@@ -487,7 +489,7 @@
                     </ul>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Copyright © <a href="#">Siswa SMK </a></p>
+                    <p class="p-small statement">Copyright © <a href="profile">Siswa SMK </a></p>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
                     <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">cintakasihtzuchi</a></p>
